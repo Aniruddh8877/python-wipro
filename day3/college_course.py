@@ -35,13 +35,13 @@ Students sorted by name: ['Karan', 'Priya', 'Ravi', 'Sneha']
 
 students = [
     {"id": 1, "name": "Ravi", "courses": ["Math", "Science", "English"], "gpa": (8.5, 9.0, 8.8)},
-    {"id": 2, "name": "Sneha", "courses": ["Math", "History"], "gpa": (9.2, 9.0)},
+    {"id": 2, "name": "aniruddh", "courses": ["Math", "History"], "gpa": (9.2, 9.0)},
     {"id": 3, "name": "Karan", "courses": ["Science", "Computer"], "gpa": (7.5, 8.0)}
 ]      
 print("Initial student data:", students, "\n")   
 
 # 1. Add a new student
-new_student = {"id": 4, "name": "Priya", "courses": ["Math", "Computer", "Economics"], "gpa": (8.8, 9.1, 9.0)}
+new_student = {"id": 4, "name": "akash", "courses": ["Math", "Computer", "Economics"], "gpa": (8.8, 9.1, 9.0)}
 students.append(new_student)
 print("Added new student:", new_student["name"])
 
